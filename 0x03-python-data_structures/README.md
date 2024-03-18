@@ -25,4 +25,14 @@ Prototypes for functions written in this project:
  * if index is out of range return original list
 3. Print a list of integers... in reverse! **mandatory**
  * `def print_reversed_list_integer(my_list=[])` a function that prints all integers of a list, in reverse order.
-
+4. Replace in a copy
+5. Can you C me now?
+6. Lists of lists = Matrix
+7. Tuples addition
+8. More returns!
+9. Find the max
+10. Only by 2
+11. Delete at 
+12. Switch
+13. Linked list palindrome
+14. CPython #0: Python lists
