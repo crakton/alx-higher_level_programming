@@ -16,3 +16,7 @@ Prototypes for functions written in this project:
 0. Print a list of integers 
  * define a function `def print_list_integer(my_list=[])`
  * print each element in the list on new line
+1. Secure access to an element in a list 
+ * Write a function that retrieves an element from a list like in C.
+ * if index is lesser than zero (negative) return `None`
+ * if index is out of range of `my_list` return `None`
