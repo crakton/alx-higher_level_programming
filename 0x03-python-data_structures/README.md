@@ -20,3 +20,6 @@ Prototypes for functions written in this project:
  * Write a function that retrieves an element from a list like in C.
  * if index is lesser than zero (negative) return `None`
  * if index is out of range of `my_list` return `None`
+2. Write a function that replaces an element of a list at a specific position (like in C).
+ * if index is negative return original list
+ * if index is out of range return original list
