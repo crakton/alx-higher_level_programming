@@ -22,3 +22,6 @@ Prototypes for functions written in this project:
  * Write a program that imports functions from the file `calculator_1.py`, does some Maths, and prints the result.
 2. How to make a script dynamic!**
  * Write a program that prints the number of arguments and the list of its arguments.
+3. Infinite addition 
+ * The output should be the result of the addition of all arguments, followed by a new line
+ * casting arguments into integers by using `int()`
