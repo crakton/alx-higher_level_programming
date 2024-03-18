@@ -7,9 +7,10 @@ In this project, I learn how to make operations with `import`, `modules`. How to
 
 Prototypes for functions written in this project:
 
-| File                       | Prototype                                               |
-| -------------------------- | ------------------------------------------------------- |
-| `add_0.py`                 | `def add(a, b)`                                         |                    |
+| File                       | Prototype                                                         |
+| -------------------------- | ------------------------------------------------------------------|
+| `add_0.py`                 | `def add(a, b)`                                                   |
+| 'calculator_1.py'          | `def add(a, b)`, `def sub(a, b)`, `def mul(a, b)`, `def div(a, b)`|
 
 ## Tasks:
 
@@ -17,3 +18,5 @@ Prototypes for functions written in this project:
  * use print with string format
  * assign value `1` to variable `a` and value `2` to variable `b` then use the
    variables as args when calling `add` function
+1.  My first toolbox! 
+ * Write a program that imports functions from the file `calculator_1.py`, does some Maths, and prints the result.
