@@ -23,3 +23,6 @@ Prototypes for functions written in this project:
 2. Write a function that replaces an element of a list at a specific position (like in C).
  * if index is negative return original list
  * if index is out of range return original list
+3. Print a list of integers... in reverse! **mandatory**
+ * `def print_reversed_list_integer(my_list=[])` a function that prints all integers of a list, in reverse order.
+
