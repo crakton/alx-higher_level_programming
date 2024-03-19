@@ -10,7 +10,8 @@ Prototypes for functions written in this project:
 | File                       | Prototype                                                         |
 | -------------------------- | ------------------------------------------------------------------|
 | `add_0.py`                 | `def add(a, b)`                                                   |
-| 'calculator_1.py'          | `def add(a, b)`, `def sub(a, b)`, `def mul(a, b)`, `def div(a, b)`|
+| `calculator_1.py`          | `def add(a, b)`, `def sub(a, b)`, `def mul(a, b)`, `def div(a, b)`|
+| `variable_load_5.py` | **simple variable**
 
 ## Tasks:
 
@@ -28,3 +29,5 @@ Prototypes for functions written in this project:
 4. Who are you?
  * program that prints all the names defined by the compiled module hidden_4.pyc (please download it locally).
  * print only names that don't start with `__`
+5. Everything can be imported
+ * a program that imports the variable a from the file `variable_load_5.py` and prints its **value**.
