@@ -25,3 +25,6 @@ Prototypes for functions written in this project:
 3. Infinite addition 
  * The output should be the result of the addition of all arguments, followed by a new line
  * casting arguments into integers by using `int()`
+4. Who are you?
+ * program that prints all the names defined by the compiled module hidden_4.pyc (please download it locally).
+ * print only names that don't start with `__`
