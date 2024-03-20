@@ -4,18 +4,25 @@ if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
     import sys
 
-    if len(sys.argv) - 1 != 3:
+    if len(sys.argv) != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
 
-    ops = {"+": add, "-": sub, "*": mul, "/": div}
-    if sys.argv[2] not in ops:  # Simplify the check
+    a, operator, b = sys.argv[1:]
+
+    if operator not in "+-*/":
         print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
 
-    a = int(sys.argv[1])
-    b = int(sys.argv[3])
+    a, b = int(a), int(b)
 
-    # Use the ops dictionary to get the correct function based on the operator
-    result = ops[sys.argv[2]](a, b)
-    print("{} {} {} = {}".format(a, sys.argv[2], b, result))
+    if operator == "+":
+        result = add(a, b)
+    elif operator == "-":
+        result = sub(a, b)
+    elif operator == "*":
+        result = mul(a, b)
+    else:  # operator == "/"
+        result = div(a, b)
+
+    print("{} {} {} = {}".format(a, operator, b, result))
