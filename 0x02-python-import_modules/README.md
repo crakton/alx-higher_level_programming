@@ -11,7 +11,7 @@ Prototypes for functions written in this project:
 | -------------------------- | ------------------------------------------------------------------|
 | `add_0.py`                 | `def add(a, b)`                                                   |
 | `calculator_1.py`          | `def add(a, b)`, `def sub(a, b)`, `def mul(a, b)`, `def div(a, b)`|
-| `variable_load_5.py` | **simple variable**
+| `variable_load_5.py` | **simple variable**|
 
 ## Tasks:
 
@@ -31,3 +31,10 @@ Prototypes for functions written in this project:
  * print only names that don't start with `__`
 5. Everything can be imported
  * a program that imports the variable a from the file `variable_load_5.py` and prints its **value**.
+6. Build my own calculator!
+ * a program that imports all functions from the file `calculator_1.py` and handles basic operation
+ * if number arguments is not 3 print `Usage: ./100-my_calculator.py <a> <operator> <b>` and exit with value **1**
+ * operator can be: `+`, `-`, `*`, `/`
+ * If the operator is not one of the above: print `Unknown operator. Available operators: +, -, * and /` exit with value 1
+ * variable `a` and `b` is cast to `int`
+ * result should be printed like this: `<a> <operator> <b> = <result>`, followed by a new line
