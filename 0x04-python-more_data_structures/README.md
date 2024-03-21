@@ -21,3 +21,7 @@ Prototypes for functions written in this project:
  * Returns a new matrix:
   - Same size as matrix
   - Each value should be the square of the value of the input
+1. Search and replace
+ * defined a function that takes a list, search, replace args
+ * return a new copy of the listt with the new item replaced at the specify
+   index
